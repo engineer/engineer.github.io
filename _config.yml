@@ -13,11 +13,19 @@ title:            Pablo Casanova
 tagline:          'Web Development, Software, Tech, Tweets, Apps'
 url:              http://engineer.github.io/
 shorturl:         engineer.github.io
-description:      '@DevPab'
-social:            https://twitter.com/devpab
-email:            'isc.casanova@gmail.com'
+
+
 
 paginate:         1
+
+#author
+
+author:
+  name:          Pablo Casanova
+  email:         isc.casanova@gmail.com
+  social:        https://twitter.com/devpab
+  twitter:       '@DevPab'
+
 
 # Custom vars
 version:          1.0.0

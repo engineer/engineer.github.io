@@ -8,7 +8,7 @@
 
     <div align="center">
         <!-- Mugshot. -->
-        <img src="{{ site.email | to_gravatar }}" alt="A photo of {{ site.title }}" />
+        <img src="{{ site.author.email | to_gravatar }}" alt="A photo of {{ site.author.name }}" />
     </div>
   </div>
 
@@ -35,7 +35,7 @@
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }} All rights reserved. <a href={{ site.social }}>{{ site.description }}</a>
+      &copy; {{ site.time | date: '%Y' }} All rights reserved. <a href={{ site.author.social }}>{{ site.author.twitter }}</a>
     </p>
   </div>
 </div>
