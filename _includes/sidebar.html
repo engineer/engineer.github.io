@@ -5,11 +5,15 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+
+    <div align="center">
+        <!-- Mugshot. -->
+        <img src="{{ site.email | to_gravatar }}" alt="A photo of {{ site.title }}" />
+    </div>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
+    <!--a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a-->
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -25,13 +29,13 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+    <!--a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a-->
 
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      &copy; {{ site.time | date: '%Y' }} All rights reserved. <a href={{ site.social }}>{{ site.description }}</a>
     </p>
   </div>
 </div>

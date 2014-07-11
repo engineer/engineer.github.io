@@ -14,10 +14,8 @@ tagline:          'Web Development, Software, Tech, Tweets, Apps'
 url:              http://engineer.github.io/
 shorturl:         engineer.github.io
 description:      '@DevPab'
-
-author:
-  name:           'Pablo Casanova'
-  url:            https://twitter.com/devpab
+social:            https://twitter.com/devpab
+email:            'isc.casanova@gmail.com'
 
 paginate:         1
 
@@ -30,7 +28,7 @@ github:
 # This is the list of pages to incldue in the header of the website.
 pages_list:
   About: '/about/'
-  Archive: '/archive/'
+  Blog: '/blog/'
   Feed: '/atom.xml'
 
 # Allow URL Redirects:

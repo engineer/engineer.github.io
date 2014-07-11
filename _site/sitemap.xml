@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://engineer.github.io/</loc>
-    <lastmod>2014-07-10T20:32:44-05:00</lastmod>
+    <lastmod>2014-07-11T13:21:53-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,7 +11,7 @@
   <url>
     <loc>http://engineer.github.io//404.html</loc>
     
-      <lastmod>2014-07-10</lastmod>
+      <lastmod>2014-07-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -24,20 +24,7 @@
   <url>
     <loc>http://engineer.github.io//about/</loc>
     
-      <lastmod>2014-07-10</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>http://engineer.github.io//archive/</loc>
-    
-      <lastmod>2014-07-10</lastmod>
+      <lastmod>2014-07-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -50,7 +37,20 @@
   <url>
     <loc>http://engineer.github.io//atom.xml</loc>
     
-      <lastmod>2014-07-10</lastmod>
+      <lastmod>2014-07-11</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://engineer.github.io//blog/</loc>
+    
+      <lastmod>2014-07-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -63,7 +63,7 @@
   <url>
     <loc>http://engineer.github.io//</loc>
     
-      <lastmod>2014-07-10</lastmod>
+      <lastmod>2014-07-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
