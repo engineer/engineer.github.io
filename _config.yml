@@ -1,0 +1,39 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Pablo Casanova
+tagline:          'Web Development, Software, Tech, Tweets, Apps'
+url:              http://engineer.github.io/
+shorturl:         engineer.github.io
+description:      ISC Pablo Casanova @DevPab
+
+author:
+  name:           'Pablo Casanova'
+  url:            https://twitter.com/devpab
+
+paginate:         1
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/engineer/engineer.github.io
+
+# This is the list of pages to incldue in the header of the website.
+pages_list:
+  About: '/about/'
+  Archive: '/archive/'
+  Feed: '/atom.xml'
+
+# Allow URL Redirects:
+#  * https://help.github.com/articles/redirects-on-github-pages
+gems:
+  - jekyll-redirect-from
