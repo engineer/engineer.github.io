@@ -1,3 +1,8 @@
-This is the personal website of Pablo Casanova, hosted by [GitHub Pages](http://pages.github.com).
+Terminal
+========
 
-The sitemap.xml file was inspired by [this post](http://jethrokuan.github.io/2013/12/20/SEO-with-Jekyll.html).
+% whoami  
+@Pablo
+
+% whereis Pablo  
+There's no place like 127.0.0.1
