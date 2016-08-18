@@ -8,7 +8,7 @@ var MESSAGES = {
   linkedin: "https://www.linkedin.com/in/pablocasanova",
   twitter: "https://twitter.com/csnv_",
   unknown: "command not found: ",
-  whoami: "Bohemian Mexican kiddo become software engineer living in Guadalajara and Mérida. \nCurrently as a Project manager and tester at University of Guadalajara for the  government dependence project of the Secretaria of Communications and Transportation | México Conectado. \nI like play with javascript and many frontend stuff, born and raised with PHP but fan of Ruby and RoR."
+  whoami: "Bohemian Mexican kiddo become software engineer living in Guadalajara and Mérida. \nCurrently as a Project manager and tester at University of Guadalajara for the  government dependence project of the Secretaria of Communications and Transportation | México Conectado. \nI like play with javascript (nodejs) and many frontend stuff, born and raised with PHP also fan of Ruby & RoR"
 };
 
 var OPTIONS = {
